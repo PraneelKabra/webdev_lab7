@@ -17,12 +17,11 @@ body {
 	#planets {
 		width: 100%;
 		border: 1px solid;
-		border-color: white;
 		border-collapse: collapse;
 		padding: 20px;
 	}
 
-	#planets th, tr {
+	#planets th, #planets tr {
 		border: 1px solid;
 		border-color: black;
 		border-collapse: collapse;
@@ -41,18 +40,17 @@ body {
 	border-collapse: collapse;
   text-align: center;
   vertical-align: middle;
-  padding: 8px;
-	text-align: center;
 	font-family: 'Michroma', serif;
 	font-size: 14px;
+  padding: 8px;
+	}
+	
+	#planets tr:hover {
+  	background-color: #e3ffd7;
 	}
 
 	#planets img {
 		width: 80%;
-	}
-
-	#planets tr:hover {
-  	background-color: #e3ffd7;
 	}
 
 	sup {
