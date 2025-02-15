@@ -18,14 +18,14 @@ body {
 		width: 100%;
 		border: 1px solid;
 		border-color: white;
-		border collapse: collapse;
+		border-collapse: collapse;
 		padding: 20px;
 	}
 
 	#planets th, tr {
 		border: 1px solid;
 		border-color: black;
-		border collapse: collapse;
+		border-collapse: collapse;
 	}
 
 	#planets th {
@@ -38,9 +38,9 @@ body {
 
 	#planets td {
 	border: 1px solid;
-	border collapse: collapse;
+	border-collapse: collapse;
   text-align: center;
-  vertical-align: center;
+  vertical-align: middle;
   padding: 8px;
 	text-align: center;
 	font-family: 'Michroma', serif;
@@ -53,9 +53,6 @@ body {
 
 	#planets tr:hover {
   	background-color: #e3ffd7;
-	}
-
-	#planets td:first-child, th:first-child {
 	}
 
 	sup {
